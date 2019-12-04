@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { Component } from 'react';
+class App extends Component {
+  render() {
+    return (
+      <div>
 
-function App() {
-  return (
-
-  );
+        Phone Directory
+      </div>
+    );
+  }
 }
-
 export default App;

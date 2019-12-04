@@ -6,20 +6,22 @@ class App extends Component {
     let subscribers = [
       {
         id: 1,
-        name: "Kirti Goel",
-        phone: "8708354923"
+        name: "Shilpa Bhat",
+        phone: "8888888888"
       },
       {
         id: 2,
-        name: "Khushboo Sharma",
-        phone: "9876543212"
+        name: "Srishti Gupta",
+        phone: "9999999999"
       }
     ];
+
     return (
       <div>
-        <Header />
+        <Header heading="Phone Directory" />
         <div className="component-body-container">
           <button className="custom-btn add-btn">Add</button>
+
           <div className="grid-container heading-container">
             <span className="grid-item name-heading">Name</span>
             <span className="grid-item phone-heading">Phone</span>

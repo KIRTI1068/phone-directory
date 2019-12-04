@@ -1,19 +1,19 @@
-import React, { Component } from 'react';
-import Header from './Header.js';
+import React from 'react';
 
-class App extends Component {
-  render() {
+const Header = function () {
+    const headerStyle = {
+        textAlign: 'center',
+        padding: 20,
+        background: '#000',
+        color: '#fff',
+        textTransform: 'uppercase'
+    };
+
     return (
-      <div>
-       
-        <Header/>
-        <button>Add</button>
-        <div>
-          <span>Name</span><br />
-          <span>Phone</span>
+      
+            <div style={headerStyle}>
+            Phone Directory
         </div>
-      </div>
-    );
-  }
+    )
 }
-export default App;
+export default Header;
